@@ -4,134 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aniket Mahajan</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #f9f9f9;
-        }
-
-        main {
-            width: 60%;
-            max-width: 800px;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        h1, p, ul li, h2 {
-            font-size: 1.2em;
-            margin: 0;
-            padding: 0;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            font-weight: normal;
-        }
-
-        h2 {
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-            font-size: 1.5em;
-            font-weight: normal;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 20px 0;
-        }
-
-        ul li {
-            margin: 10px 0;
-        }
-
-        a {
-            color: #444;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: #333;
-            text-decoration: underline;
-        }
-
-        footer {
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #888;
-        }
-
-        .header {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        .header img {
-            width: 180px;
-            height: 220px;
-            margin-right: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            object-fit: cover;
-        }
-
-        .header .bio {
-            text-align: left;
-        }
-
-        .bio p {
-            margin-top: 10px;
-        }
-
-        section {
-            margin-top: 20px;
-        }
-
-        .bio p, section p, ul {
-            margin-left: 20px;
-        }
-
-        .header img + .bio {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <main>
-        <div class="header">
-            <img src="aura_headshot.jpeg" alt="Your Headshot">
-            <div class="bio">
-                <h1>Aniket Mahajan</h1>
-                <p>CS BS + MS AI @ Stanford<br>Prev @ AWS<br>Research @ HAZY</p>
+<body class="bg-gray-100 text-gray-800 flex items-center justify-center min-h-screen">
+    <main class="bg-white shadow-lg rounded-lg p-8 max-w-2xl">
+        <div class="flex items-center mb-6">
+            <img src="aura_headshot.jpeg" alt="Your Headshot" class="w-36 h-44 rounded-lg shadow-md object-cover mr-6">
+            <div>
+                <h1 class="text-4xl font-semibold">Aniket Mahajan</h1>
+                <p class="mt-2 text-gray-600">CS BS + MS AI @ Stanford<br>Prev @ AWS<br>Research @ HAZY</p>
             </div>
         </div>
 
-        <section id="about">
-            <h2>About Me</h2>
+        <section id="about" class="mb-8">
+            <h2 class="text-2xl font-medium border-b pb-2 mb-4">About Me</h2>
             <p>I'm a student at Stanford interested in LLM research and optimizing GPUs.</p>
         </section>
 
-        <section id="currently">
-            <h2>Currently</h2>
+        <section id="currently" class="mb-8">
+            <h2 class="text-2xl font-medium border-b pb-2 mb-4">Currently</h2>
             <p>Currently writing kernels building on top of ThunderKittens.</p>
         </section>
 
-        <section id="previously">
-            <h2>Previously:</h2>
-            <ul>
+        <section id="previously" class="mb-8">
+            <h2 class="text-2xl font-medium border-b pb-2 mb-4">Previously</h2>
+            <ul class="list-disc pl-6 space-y-2">
                 <li>MLE @ AWS</li>
                 <li>SWE @ Etelic</li>
                 <li>Venture @ Xfund</li>
@@ -139,182 +36,19 @@
         </section>
 
         <section id="contact">
-            <h2>Links</h2>
-            <ul>
-                <li><a href="mailto:aniketm@stanford.edu">aniketm at stanford dot edu</a></li>
-                <li><a href="https://linkedin.com/in/aniketm3">linkedin.com/in/aniketm3</a></li>
-                <li><a href="https://github.com/aniketm3">github.com/aniketm3</a></li>
-                <li><a href="#">goodreads</a></li>
-                <li><a href="#">grailed</a></li>
+            <h2 class="text-2xl font-medium border-b pb-2 mb-4">Links</h2>
+            <ul class="space-y-2">
+                <li><a href="mailto:aniketm@stanford.edu" class="text-blue-600 hover:underline">aniketm at stanford dot edu</a></li>
+                <li><a href="https://linkedin.com/in/aniketm3" class="text-blue-600 hover:underline">linkedin.com/in/aniketm3</a></li>
+                <li><a href="https://github.com/aniketm3" class="text-blue-600 hover:underline">github.com/aniketm3</a></li>
+                <li><a href="#" class="text-blue-600 hover:underline">goodreads</a></li>
+                <li><a href="#" class="text-blue-600 hover:underline">grailed</a></li>
             </ul>
         </section>
 
-        <footer>
+        <footer class="mt-6 text-gray-500 text-sm">
             <p>&copy; 2025 Aniket Mahajan. All Rights Reserved.</p>
         </footer>
     </main>
 </body>
 </html>
-<!-- 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aniket Mahajan</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #f9f9f9;
-        }
-
-        main {
-            width: 60%;
-            max-width: 800px;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        h1, p, ul li, h2 {
-            font-size: 1.2em;
-            margin: 0;
-            padding: 0;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            font-weight: normal;
-        }
-
-        h2 {
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-            font-size: 1.5em;
-            font-weight: normal;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 20px 0;
-        }
-
-        ul li {
-            margin: 10px 0;
-        }
-
-        a {
-            color: #007acc;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        a:hover {
-            color: #005f99;
-        }
-
-        footer {
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #888;
-        }
-
-        .header {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        .header img {
-            width: 200px;
-            height: 250px;
-            margin-right: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            object-fit: cover;
-        }
-
-        .header .bio {
-            text-align: left;
-        }
-
-        .bio p {
-            margin-top: 10px;
-        }
-
-        section {
-            margin-top: 20px;
-        }
-
-        .bio p, section p, ul {
-            margin-left: 0;
-        }
-
-        .header img + .bio {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        .contact-links li {
-            margin: 10px 0;
-        }
-
-        .contact-links li a {
-            text-transform: lowercase;
-        }
-    </style>
-</head>
-<body>
-    <main>
-        <div class="header">
-            <img src="aura_headshot.jpeg" alt="Your Headshot">
-            <div class="bio">
-                <h1>Aniket Mahajan</h1>
-                <p>CS BS + MS AI @ Stanford<br>Research @ HAZY</p>
-            </div>
-        </div>
-
-        <section id="about">
-            <h2>About</h2>
-            <p>I'm a student at Stanford interested in LLM research and entrepreneurial tech.</p>
-            <p>Writing kernels building on top of ThunderKittens.</p>
-        </section>
-
-        <section id="previously">
-            <h2>Previously</h2>
-            <ul>
-                <li>MLE @ AWS</li>
-                <li>SWE @ Etelic</li>
-                <li>Venture @ Xfund</li>
-            </ul>
-        </section>
-
-        <section id="contact">
-            <h2>Links</h2>
-            <ul class="contact-links">
-                <li><a href="mailto:aniketm@stanford.edu">email</a></li>
-                <li><a href="https://linkedin.com/in/aniketm3" target="_blank">linkedin</a></li>
-                <li><a href="https://github.com/aniketm3" target="_blank">github</a></li>
-                <li>aniketm at stanford dot edu</li>
-                <li><a href="https://www.goodreads.com/user/show/184634582-aniket-mahajan" target="_blank">goodreads</a></li>
-                <li><a href="https://www.grailed.com/xerneasx71031" target="_blank">grailed</a></li>
-            </ul>
-        </section>
-
-        <footer>
-            <p>&copy; 2025 Aniket Mahajan. All Rights Reserved.</p>
-        </footer>
-    </main>
-</body>
-</html> -->
