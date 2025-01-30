@@ -4,22 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aniket Mahajan</title>
-    <link rel="icon" href="aniket-favcon.png" type="image/png">
+    <link rel="icon" href="assets/aniket-favcon.png" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 text-gray-800">
-    <!-- <header class="bg-white shadow p-4 fixed w-full top-0 z-10"> -->
-        <!-- <nav class="max-w-4xl mx-auto flex justify-end space-x-6"> -->
     <div id="masthead-placeholder"></div>
-            <!-- <a href="writing.html" class="text-lg font-medium text-gray-700 hover:text-blue-600">Writing</a>
-            <a href="projects.html" class="text-lg font-medium text-gray-700 hover:text-blue-600">Projects</a>
-            <a href="MahajanAniket.pdf" target="_blank" class="text-lg font-medium text-gray-700 hover:text-blue-600">Resume</a> -->
-        <!-- </nav> -->
-    <!-- </header> -->
 
     <main class="bg-white shadow-lg rounded-lg p-8 max-w-2xl mx-auto mt-20">
         <div class="flex items-center mb-6">
-            <img src="aura_headshot.jpeg" alt="Your Headshot" class="w-36 h-44 rounded-lg shadow-md object-cover mr-6">
+            <img src="assets/aura_headshot.jpeg" alt="Your Headshot" class="w-36 h-44 rounded-lg shadow-md object-cover mr-6">
             <div>
                 <h1 class="text-4xl font-semibold">Aniket Mahajan</h1>
                 <p class="text-gray-600">CS BS + MS AI @ Stanford</p>
@@ -32,12 +25,10 @@
         </section>
 
         <section id="writing" class="mb-8">
-            <!-- <h2 class="text-2xl font-medium border-b pb-2 mb-4">Writing</h2> -->
             <div id="writing-container"></div>
         </section>
 
         <section id="projects" class="mb-8">
-            <!-- <h2 class="text-2xl font-medium border-b pb-2 mb-4">Projects</h2> -->
             <div id="projects-container"></div>
         </section>
 
@@ -54,10 +45,9 @@
         </footer>
     </main>
 
-
     <script>
         // Function to load projects dynamically into the homepage
-        fetch('projects.html')
+        fetch('pages/projects.html')
             .then(response => response.text())
             .then(data => {
                 // Create a temporary element to parse the HTML content of the projects page
@@ -72,7 +62,7 @@
             })
             .catch(error => console.error('Error loading projects:', error));
 
-        fetch('writing.html')
+        fetch('pages/writing.html')
             .then(response => response.text())
             .then(data => {
                 const tempDiv = document.createElement('div');
