@@ -7,13 +7,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 text-gray-800">
-    <header class="bg-white shadow p-4 fixed w-full top-0 z-10">
+    <div id="masthead-placeholder"></div>
+    <!-- <header class="bg-white shadow p-4 fixed w-full top-0 z-10">
         <nav class="max-w-4xl mx-auto flex justify-end space-x-6">
             <a href="index.html" class="text-lg font-medium text-gray-700 hover:text-blue-600">Home</a>
             <a href="projects.html" class="text-lg font-medium text-gray-700 hover:text-blue-600">Projects</a>
             <a href="MahajanAniket.pdf" target="_blank" class="text-lg font-medium text-gray-700 hover:text-blue-600">Resume</a>
         </nav>
-    </header>
+    </header> -->
 
     <main class="bg-white shadow-lg rounded-lg p-8 max-w-2xl mx-auto mt-20">
         <section id="writing" class="mb-8">
@@ -34,5 +35,35 @@
             </ul>
         </section>
     </main>
+    <script>
+        // Get the current page filename
+        const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+
+        // Load and modify masthead based on current page
+        fetch('masthead.html')
+            .then(response => response.text())
+            .then(data => {
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = data;
+                
+                // Show home link since this isn't the home page
+                const homeLink = tempDiv.querySelector('#home-link');
+                if (homeLink) {
+                    homeLink.classList.remove('hidden');
+                }
+                
+                // Remove the writing link since we're on the writing page
+                const links = tempDiv.getElementsByTagName('a');
+                for (const link of links) {
+                    if (link.getAttribute('href') === 'writing.html') {
+                        link.remove();
+                    }
+                }
+                
+                // Insert the modified masthead
+                document.getElementById('masthead-placeholder').innerHTML = tempDiv.innerHTML;
+            })
+            .catch(error => console.error('Error loading masthead:', error));
+    </script>
 </body>
 </html>
