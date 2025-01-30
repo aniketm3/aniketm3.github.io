@@ -1,69 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - Aniket Mahajan</title>
-    <link rel="icon" href="../assets/aniket-favcon.png" type="image/png">
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Aniket Mahajan</title>
+  <link rel="icon" href="/assets/aniket-favcon.png" type="image/png">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 text-gray-800">
-    <div id="masthead-placeholder"></div>
-
-    <main class="bg-white shadow-lg rounded-lg p-8 max-w-2xl mx-auto mt-20">
-        <section id="projects" class="mb-8">
-            <h2 class="text-2xl font-medium border-b pb-2 mb-4">Projects</h2>
-            <ul class="space-y-4">
-                <li>
-                    <a href="../project1.html" class="block text-blue-600 hover:underline">
-                        <div class="text-lg font-semibold">Real-Time Ray Tracing Engine</div>
-                        <div class="text-sm text-gray-500">March 5, 2024</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="../project2.html" class="block text-blue-600 hover:underline">
-                        <div class="text-lg font-semibold">AI-Powered Portfolio Optimizer</div>
-                        <div class="text-sm text-gray-500">June 18, 2024</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="../project3.html" class="block text-blue-600 hover:underline">
-                        <div class="text-lg font-semibold">Parallel GPU-Based Simulation</div>
-                        <div class="text-sm text-gray-500">November 22, 2024</div>
-                    </a>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <script>
-        // Get the current page filename
-        const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-
-        // Load and modify masthead based on current page
-        fetch('../masthead.html')
-            .then(response => response.text())
-            .then(data => {
-                const tempDiv = document.createElement('div');
-                tempDiv.innerHTML = data;
-                
-                // Show home link since this isn't the home page
-                const homeLink = tempDiv.querySelector('#home-link');
-                if (homeLink) {
-                    homeLink.classList.remove('hidden');
-                }
-                
-                // Remove the projects link since we're on the projects page
-                const links = tempDiv.getElementsByTagName('a');
-                for (const link of links) {
-                    if (link.getAttribute('href') === 'pages/projects.html') {
-                        link.remove();
-                    }
-                }
-                
-                // Insert the modified masthead
-                document.getElementById('masthead-placeholder').innerHTML = tempDiv.innerHTML;
-            })
-            .catch(error => console.error('Error loading masthead:', error));
-    </script>
+  <div id="masthead-placeholder"></div>
+  <main class="bg-white shadow-lg rounded-lg p-8 max-w-2xl mx-auto mt-20">
+    <section id="projects" class="mb-8">
+      <h2 class="text-2xl font-medium border-b pb-2 mb-4">Projects</h2>
+      <ul class="space-y-4">
+        <li>
+          <a href="/project1.html" class="block text-blue-600 hover:underline">
+            <div class="text-lg font-semibold">Real-Time Ray Tracing Engine</div>
+            <div class="text-sm text-gray-500">March 5, 2024</div>
+          </a>
+        </li>
+        <li>
+          <a href="/project2.html" class="block text-blue-600 hover:underline">
+            <div class="text-lg font-semibold">AI-Powered Portfolio Optimizer</div>
+            <div class="text-sm text-gray-500">June 18, 2024</div>
+          </a>
+        </li>
+        <li>
+          <a href="/project3.html" class="block text-blue-600 hover:underline">
+            <div class="text-lg font-semibold">Parallel GPU-Based Simulation</div>
+            <div class="text-sm text-gray-500">November 22, 2024</div>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <script>
+    fetch('/masthead.html')
+      .then(response => response.text())
+      .then(data => {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = data;
+        const homeLink = tempDiv.querySelector('#home-link');
+        if (homeLink) {
+          homeLink.classList.remove('hidden');
+        }
+        const links = tempDiv.getElementsByTagName('a');
+        for (const link of links) {
+          if (link.getAttribute('href') === '/pages/projects.html') {
+            link.remove();
+          }
+        }
+        document.getElementById('masthead-placeholder').innerHTML = tempDiv.innerHTML;
+      })
+      .catch(error => console.error('Error loading masthead:', error));
+  </script>
 </body>
 </html>
