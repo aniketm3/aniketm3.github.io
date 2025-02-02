@@ -48,8 +48,9 @@
       .then(data => {
         const tempDiv = document.createElement('div');
         tempDiv.innerHTML = data;
-        const projectsSection = tempDiv.querySelector('#projects');
-        document.getElementById('projects-container').innerHTML = projectsSection.innerHTML;
+        document.getElementById('projects-container').innerHTML = tempDiv.innerHTML;
+        // const projectsSection = tempDiv.querySelector('#projects');
+        // document.getElementById('projects-container').innerHTML = projectsSection.innerHTML;
       })
       .catch(error => console.error('Error loading projects:', error));
 
