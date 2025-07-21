@@ -13,8 +13,8 @@ permalink: /
       <div class="text-lg text-gray-600 leading-relaxed space-y-4 max-w-xl">
         <p>
           I'm a rising senior at <span class="text-indigo-600 font-medium">Stanford</span> persuing a bachelors and coterminal masters in CS. I am interested in improving AI safety and performance. 
-          Currently building security infrastructure as a founding engineer at <span class="text-indigo-600 font-medium">Corridor</span> 
-          and speeding up kernels as a research assistant at the <span class="text-indigo-600 font-medium">HAZY Lab</span>.
+          Currently building security infrastructure as a founding engineer at <a href="https://corridor.dev" target="_blank" class="text-indigo-600 font-medium hover:underline">Corridor</a> 
+          and speeding up kernels as a research assistant at the <a href="https://hazyresearch.stanford.edu" target="_blank" class="text-indigo-600 font-medium hover:underline">HAZY Lab</a>.
         </p>
       </div>
       
