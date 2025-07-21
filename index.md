@@ -33,8 +33,11 @@ permalink: /
     </div>
   </header>
 
+  <!-- Spacer -->
+  <div class="h-4"></div>
+  
   <!-- What I've Been Up To Section -->
-  <section class="mt-[75vh]">
+  <section>
     <h2 class="text-xl font-medium text-gray-900 mb-8">What I've been up to</h2>
     
     <div class="space-y-6 max-w-3xl mx-auto px-4">
