@@ -39,21 +39,21 @@ permalink: /
     
     <div class="space-y-6">
       <div class="flex items-center">
-        <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mr-4">
-          <span class="text-white font-semibold text-sm">C</span>
+        <div class="w-12 h-12 rounded-lg overflow-hidden mr-4 bg-white border border-gray-200">
+          <img src="/assets/corridor.png" alt="Corridor" class="w-full h-full object-cover">
         </div>
         <div class="flex-1">
           <h3 class="font-semibold text-gray-900">Founding Engineer</h3>
           <p class="text-gray-600">Corridor</p>
         </div>
         <div class="text-gray-500 text-sm">
-          2024 - Present
+          2025 - Present
         </div>
       </div>
       
       <div class="flex items-center">
-        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mr-4">
-          <span class="text-white font-semibold text-sm">H</span>
+        <div class="w-12 h-12 rounded-lg overflow-hidden mr-4 bg-white border border-gray-200">
+          <img src="/assets/hazy.png" alt="Hazy Research" class="w-full h-full object-cover">
         </div>
         <div class="flex-1">
           <h3 class="font-semibold text-gray-900">Research Assistant</h3>
@@ -65,28 +65,54 @@ permalink: /
       </div>
       
       <div class="flex items-center">
-        <div class="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center mr-4">
-          <span class="text-white font-semibold text-sm">A</span>
+        <div class="w-12 h-12 rounded-lg overflow-hidden mr-4 bg-white border border-gray-200">
+          <img src="/assets/aws.png" alt="AWS" class="w-full h-full object-cover">
         </div>
         <div class="flex-1">
           <h3 class="font-semibold text-gray-900">ML Engineer</h3>
           <p class="text-gray-600">AWS</p>
         </div>
         <div class="text-gray-500 text-sm">
-          2023 - 2024
+         2024
         </div>
       </div>
       
       <div class="flex items-center">
-        <div class="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mr-4">
-          <span class="text-white font-semibold text-sm">T</span>
+        <div class="w-12 h-12 rounded-lg overflow-hidden mr-4 bg-white border border-gray-200">
+          <img src="/assets/etelic.jpeg" alt="Etelic" class="w-full h-full object-cover">
         </div>
         <div class="flex-1">
-          <h3 class="font-semibold text-gray-900">Engineer</h3>
+          <h3 class="font-semibold text-gray-900">Software Engineer</h3>
+          <p class="text-gray-600">Etelic</p>
+        </div>
+        <div class="text-gray-500 text-sm">
+          2023
+        </div>
+      </div>
+      
+      <div class="flex items-center">
+        <div class="w-12 h-12 rounded-lg overflow-hidden mr-4 bg-white border border-gray-200">
+          <img src="/assets/transcribeglass.png" alt="Transcribe Glass" class="w-full h-full object-cover">
+        </div>
+        <div class="flex-1">
+          <h3 class="font-semibold text-gray-900">Software Engineer</h3>
           <p class="text-gray-600">Transcribe Glass</p>
         </div>
         <div class="text-gray-500 text-sm">
           2023
+        </div>
+      </div>
+      
+      <div class="flex items-center">
+        <div class="w-12 h-12 rounded-lg overflow-hidden mr-4 bg-white border border-gray-200">
+          <img src="/assets/xfund.png" alt="Xfund" class="w-full h-full object-cover">
+        </div>
+        <div class="flex-1">
+          <h3 class="font-semibold text-gray-900">Venture Fellow</h3>
+          <p class="text-gray-600">Xfund</p>
+        </div>
+        <div class="text-gray-500 text-sm">
+          2022 - 2023
         </div>
       </div>
     </div>
