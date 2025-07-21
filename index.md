@@ -7,63 +7,94 @@ permalink: /
 <div class="space-y-20">
   <!-- Hero Section -->
   <header class="flex items-start gap-8">
-    <img src="/assets/aura_headshot.jpeg" alt="Aniket Mahajan" class="w-24 h-28 rounded-xl object-cover shadow-sm">
+    <img src="/assets/aura_headshot.jpeg" alt="Aniket Mahajan" class="w-40 h-48 rounded-xl object-cover shadow-sm">
     <div class="flex-1">
-      <h1 class="text-4xl font-bold text-gray-900 mb-4">Aniket Mahajan</h1>
+      <h1 class="text-3xl font-semibold text-gray-900 mb-4">Aniket Mahajan</h1>
       <div class="text-lg text-gray-600 leading-relaxed space-y-4 max-w-xl">
         <p>
-          CS student at Stanford working on making AI systems safer and faster. 
-          Currently a founding engineer at <span class="text-indigo-600 font-medium">Corridor</span>, 
-          building security into AI from the ground up.
+          I'm a rising senior at <span class="text-indigo-600 font-medium">Stanford</span> persuing a bachelors and coterminal masters in CS. I am interested in improving AI safety and performance. 
+          Currently building security infrastructure as a founding engineer at <span class="text-indigo-600 font-medium">Corridor</span> 
+          and speeding up kernels as a research assistant at the <span class="text-indigo-600 font-medium">HAZY Lab</span>.
         </p>
-        <p>
-          I love the challenge of taking research ideas and turning them into systems that actually work at scale. 
-          Previously at AWS optimizing ML infrastructure and at Hazy Research pushing the boundaries of GPU performance.
-        </p>
+      </div>
+      
+      <!-- Contact Links -->
+      <div class="flex flex-wrap gap-6 text-gray-500 mt-6">
+        <a href="https://github.com/aniketm3" target="_blank" class="hover:text-indigo-600 transition-colors font-medium">
+          GitHub →
+        </a>
+        <a href="https://www.linkedin.com/in/aniket-mahajan-52608423b/" target="_blank" class="hover:text-indigo-600 transition-colors font-medium">
+          LinkedIn →
+        </a>
+        <a href="mailto:aniketm@stanford.edu" target="_blank" class="hover:text-indigo-600 transition-colors font-medium">
+          Email →
+        </a>
       </div>
     </div>
   </header>
 
-  <!-- Experience Section -->
+  <!-- What I've Been Up To Section -->
   <section>
-    <h2 class="text-xl font-medium text-gray-900 mb-8">Experience</h2>
+    <h2 class="text-xl font-medium text-gray-900 mb-8">What I've been up to</h2>
     
-    <div class="grid gap-6 md:grid-cols-2">
-      <div class="group p-6 rounded-xl border border-gray-100 hover:border-gray-200 hover:shadow-sm transition-all duration-300">
-        <h3 class="font-semibold text-gray-900 mb-2">Corridor</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">
-          AI security infrastructure that bakes safety into models from day one. 
-          Working on detection, monitoring, and prevention systems.
-        </p>
+    <div class="space-y-6">
+      <div class="flex items-center">
+        <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mr-4">
+          <span class="text-white font-semibold text-sm">C</span>
+        </div>
+        <div class="flex-1">
+          <h3 class="font-semibold text-gray-900">Founding Engineer</h3>
+          <p class="text-gray-600">Corridor</p>
+        </div>
+        <div class="text-gray-500 text-sm">
+          2024 - Present
+        </div>
       </div>
       
-      <div class="group p-6 rounded-xl border border-gray-100 hover:border-gray-200 hover:shadow-sm transition-all duration-300">
-        <h3 class="font-semibold text-gray-900 mb-2">Hazy Research</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">
-          Research on GPU optimization and performance engineering for AI systems.
-        </p>
+      <div class="flex items-center">
+        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mr-4">
+          <span class="text-white font-semibold text-sm">H</span>
+        </div>
+        <div class="flex-1">
+          <h3 class="font-semibold text-gray-900">Research Assistant</h3>
+          <p class="text-gray-600">Hazy Research</p>
+        </div>
+        <div class="text-gray-500 text-sm">
+          2024 - Present
+        </div>
       </div>
       
-      <div class="group p-6 rounded-xl border border-gray-100 hover:border-gray-200 hover:shadow-sm transition-all duration-300">
-        <h3 class="font-semibold text-gray-900 mb-2">AWS ML Infrastructure</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">
-          Built systems that handle massive ML workloads reliably. 
-          Learned what it takes to scale AI in production.
-        </p>
+      <div class="flex items-center">
+        <div class="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center mr-4">
+          <span class="text-white font-semibold text-sm">A</span>
+        </div>
+        <div class="flex-1">
+          <h3 class="font-semibold text-gray-900">ML Engineer</h3>
+          <p class="text-gray-600">AWS</p>
+        </div>
+        <div class="text-gray-500 text-sm">
+          2023 - 2024
+        </div>
       </div>
       
-      <div class="group p-6 rounded-xl border border-gray-100 hover:border-gray-200 hover:shadow-sm transition-all duration-300">
-        <h3 class="font-semibold text-gray-900 mb-2">Transcribe Glass</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">
-          Making real-time transcription seamless and accessible through smart glasses technology.
-        </p>
+      <div class="flex items-center">
+        <div class="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mr-4">
+          <span class="text-white font-semibold text-sm">T</span>
+        </div>
+        <div class="flex-1">
+          <h3 class="font-semibold text-gray-900">Engineer</h3>
+          <p class="text-gray-600">Transcribe Glass</p>
+        </div>
+        <div class="text-gray-500 text-sm">
+          2023
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Projects Section -->
   <section>
-    <h2 class="text-xl font-medium text-gray-900 mb-8">Projects</h2>
+    <h2 class="text-xl font-medium text-gray-900 mb-8">Some stuff I've worked on</h2>
     
     <div class="space-y-4">
       <div class="group p-6 rounded-xl border border-gray-100 hover:border-gray-200 hover:shadow-sm transition-all duration-300">
@@ -83,21 +114,9 @@ permalink: /
     </div>
   </section>
 
-  <!-- Contact -->
-  <footer class="pt-8 border-t border-gray-100">
-    <div class="flex flex-wrap gap-6 text-gray-500">
-      <a href="https://github.com/aniketm3" target="_blank" class="hover:text-indigo-600 transition-colors font-medium">
-        GitHub →
-      </a>
-      <a href="https://www.linkedin.com/in/aniket-mahajan-52608423b/" target="_blank" class="hover:text-indigo-600 transition-colors font-medium">
-        LinkedIn →
-      </a>
-      <a href="/assets/MahajanAniket.pdf" target="_blank" class="hover:text-indigo-600 transition-colors font-medium">
-        Resume →
-      </a>
-      <a href="mailto:aniketm@stanford.edu" target="_blank" class="hover:text-indigo-600 transition-colors font-medium">
-        Email →
-      </a>
-    </div>
+  <!-- Footer -->
+  <footer class="text-center text-gray-400 text-sm mt-16">
+    <p>Designed by Aniket in San Jose</p>
   </footer>
+
 </div>
