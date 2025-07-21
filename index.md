@@ -34,10 +34,10 @@ permalink: /
   </header>
 
   <!-- What I've Been Up To Section -->
-  <section>
+  <section class="mt-[75vh]">
     <h2 class="text-xl font-medium text-gray-900 mb-8">What I've been up to</h2>
     
-    <div class="space-y-6">
+    <div class="space-y-6 max-w-3xl mx-auto px-4">
       <div class="flex items-center">
         <div class="w-12 h-12 rounded-lg overflow-hidden mr-4 bg-white border border-gray-200">
           <img src="/assets/corridor.png" alt="Corridor" class="w-full h-full object-cover">
@@ -92,19 +92,6 @@ permalink: /
       
       <div class="flex items-center">
         <div class="w-12 h-12 rounded-lg overflow-hidden mr-4 bg-white border border-gray-200">
-          <img src="/assets/transcribeglass.png" alt="Transcribe Glass" class="w-full h-full object-cover">
-        </div>
-        <div class="flex-1">
-          <h3 class="font-semibold text-gray-900">Software Engineer</h3>
-          <p class="text-gray-600">Transcribe Glass</p>
-        </div>
-        <div class="text-gray-500 text-sm">
-          2023
-        </div>
-      </div>
-      
-      <div class="flex items-center">
-        <div class="w-12 h-12 rounded-lg overflow-hidden mr-4 bg-white border border-gray-200">
           <img src="/assets/xfund.png" alt="Xfund" class="w-full h-full object-cover">
         </div>
         <div class="flex-1">
@@ -115,14 +102,27 @@ permalink: /
           2022 - 2023
         </div>
       </div>
+      
+      <div class="flex items-center">
+        <div class="w-12 h-12 rounded-lg overflow-hidden mr-4 bg-white border border-gray-200">
+          <img src="/assets/transcribeglass.png" alt="Transcribe Glass" class="w-full h-full object-cover">
+        </div>
+        <div class="flex-1">
+          <h3 class="font-semibold text-gray-900">Software Engineer</h3>
+          <p class="text-gray-600">Transcribe Glass</p>
+        </div>
+        <div class="text-gray-500 text-sm">
+          2023
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Projects Section -->
-  <section>
+  <section class="mt-16">
     <h2 class="text-xl font-medium text-gray-900 mb-8">Some stuff I've worked on</h2>
     
-    <div class="space-y-4">
+    <div class="space-y-4 max-w-3xl mx-auto px-4">
       <div class="group p-6 rounded-xl border border-gray-100 hover:border-gray-200 hover:shadow-sm transition-all duration-300">
         <h3 class="font-semibold text-gray-900 mb-2">ThunderKittens</h3>
         <p class="text-gray-600 text-sm leading-relaxed">

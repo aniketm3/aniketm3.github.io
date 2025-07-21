@@ -5,11 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
   <link rel="icon" href="/assets/aniket-favcon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'serif': ['Lora', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body class="bg-white text-gray-800 font-serif">
   <div id="masthead-placeholder"></div>
-  <main class="bg-white shadow-lg rounded-lg p-12 max-w-4xl mx-auto mt-8">
+  <main class="bg-white p-12 max-w-4xl mx-auto mt-32 mb-10">
     {{ content }}
   </main>
   <script>
