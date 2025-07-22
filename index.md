@@ -7,7 +7,7 @@ permalink: /
 <div class="space-y-20">
   <!-- Hero Section -->
   <header class="flex flex-col min-[400px]:flex-row items-center min-[400px]:items-start gap-4 min-[400px]:gap-6">
-    <img src="/assets/aura_headshot.jpeg" alt="Aniket Mahajan" class="w-32 h-40 rounded-xl object-cover shadow-sm">
+    <img src="/assets/aura_headshot.jpeg" alt="Aniket Mahajan" class="w-full min-[400px]:w-32 h-40 rounded-xl object-cover shadow-sm">
     <div class="flex-1 text-left">
       <h1 class="text-3xl font-semibold text-gray-900 mb-4">Aniket Mahajan</h1>
       <div class="text-lg text-gray-600 leading-relaxed space-y-4 max-w-xl">
