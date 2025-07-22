@@ -40,7 +40,7 @@ permalink: /
   <section>
     <h2 class="text-xl font-medium text-gray-900 mb-8">What I've been up to</h2>
     
-    <div class="space-y-6 max-w-3xl mx-auto px-4">
+    <div class="space-y-7 max-w-3xl mx-auto px-4">
       <div class="flex items-center">
         <div class="w-12 h-12 rounded-lg overflow-hidden mr-4 bg-white border border-gray-200">
           <img src="/assets/corridor.png" alt="Corridor" class="w-full h-full object-cover">
@@ -119,6 +119,30 @@ permalink: /
         </div>
       </div>
     </div>
+
+    <!-- Commented out dropdown functionality
+    <div class="space-y-1 max-w-3xl mx-auto px-4">
+      <div class="experience-item">
+        <div class="flex items-center cursor-pointer hover:bg-gray-50 p-3 rounded-lg transition-all duration-200" onclick="toggleExperience('corridor')">
+          <div class="w-12 h-12 rounded-lg overflow-hidden mr-4 bg-white border border-gray-200">
+            <img src="/assets/corridor.png" alt="Corridor" class="w-full h-full object-cover">
+          </div>
+          <div class="flex-1">
+            <h3 class="font-semibold text-gray-900">Founding Engineer</h3>
+            <p class="text-gray-600">Corridor</p>
+          </div>
+          <div class="text-gray-500 text-sm">
+            2025 - Present
+          </div>
+        </div>
+        <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0" id="details-corridor">
+          <div class="ml-16 py-2 px-3 text-gray-700 text-sm">
+            <p>Building security infrastructure for AI development workflows. Working on code analysis, vulnerability detection, and security tooling for modern development teams.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
   </section>
 
   <!-- Projects Section -->
@@ -149,3 +173,17 @@ permalink: /
   </footer>
 
 </div>
+
+<!-- Commented out dropdown JavaScript
+<script>
+function toggleExperience(id) {
+  const details = document.getElementById('details-' + id);
+  
+  if (details.style.maxHeight && details.style.maxHeight !== '0px') {
+    details.style.maxHeight = '0px';
+  } else {
+    details.style.maxHeight = details.scrollHeight + 'px';
+  }
+}
+</script>
+-->
