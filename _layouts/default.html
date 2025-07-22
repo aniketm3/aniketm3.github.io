@@ -20,17 +20,8 @@
   </script>
 </head>
 <body class="bg-white text-gray-800 font-serif">
-  <div id="masthead-placeholder"></div>
   <main class="bg-white p-12 max-w-4xl mx-auto mt-32 mb-10">
     {{ content }}
   </main>
-  <script>
-    fetch('/masthead.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('masthead-placeholder').innerHTML = data;
-      })
-      .catch(error => console.error('Error loading masthead:', error));
-  </script>
 </body>
 </html>

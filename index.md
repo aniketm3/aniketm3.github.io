@@ -150,8 +150,8 @@ permalink: /
     <h2 class="text-xl font-medium text-gray-900 mb-8">Some stuff I've worked on</h2>
     
     <div class="space-y-2 max-w-3xl mx-auto px-4">
-      <div class="py-3 px-6 flex items-start justify-between">
-        <div class="flex-1 ml-16">
+      <div class="py-3 flex items-start justify-between">
+        <div class="flex-1">
           <h3 class="font-semibold text-gray-900 mb-1">ThunderKittens</h3>
           <p class="text-gray-600 text-sm leading-relaxed">
             Research on squeezing maximum performance out of hardware for transformer architectures.
@@ -164,8 +164,8 @@ permalink: /
         </a>
       </div>
       
-      <div class="py-3 px-6 flex items-start justify-between">
-        <div class="flex-1 ml-16">
+      <div class="py-3 flex items-start justify-between">
+        <div class="flex-1">
           <h3 class="font-semibold text-gray-900 mb-1">Fast Speculative Decoding using Markov Decision Processes</h3>
           <p class="text-gray-600 text-sm leading-relaxed">
             Implementing speculative decoding techniques to accelerate language model inference.
@@ -178,8 +178,8 @@ permalink: /
         </a>
       </div>
       
-      <div class="py-3 px-6 flex items-start justify-between">
-        <div class="flex-1 ml-16">
+      <div class="py-3 flex items-start justify-between">
+        <div class="flex-1">
           <h3 class="font-semibold text-gray-900 mb-1">Sidekick - RAG engine for technical interviews</h3>
           <p class="text-gray-600 text-sm leading-relaxed">
             Voice transcription and contextual Q&A system with cited sources for real-time technical discussions.
@@ -192,8 +192,8 @@ permalink: /
         </a>
       </div>
       
-      <div class="py-3 px-6 flex items-start justify-between">
-        <div class="flex-1 ml-16">
+      <div class="py-3 flex items-start justify-between">
+        <div class="flex-1">
           <h3 class="font-semibold text-gray-900 mb-1">ScreenShield - real-time screen detection and blurring</h3>
           <p class="text-gray-600 text-sm leading-relaxed">
             YOLOv11-based video processing pipeline optimized for livestreams and video calls.
@@ -206,8 +206,8 @@ permalink: /
         </a>
       </div>
       
-      <div class="py-3 px-6 flex items-start justify-between">
-        <div class="flex-1 ml-16">
+      <div class="py-3 flex items-start justify-between">
+        <div class="flex-1">
           <h3 class="font-semibold text-gray-900 mb-1">Myst - Chrome extension for media awareness</h3>
           <p class="text-gray-600 text-sm leading-relaxed">
             Vision-Language Models analyze browsing habits with real-time classification and 3D visualization.
@@ -220,8 +220,8 @@ permalink: /
         </a>
       </div>
       
-      <div class="py-3 px-6 flex items-start justify-between">
-        <div class="flex-1 ml-16">
+      <div class="py-3 flex items-start justify-between">
+        <div class="flex-1">
           <h3 class="font-semibold text-gray-900 mb-1">PokerProphet</h3>
           <p class="text-gray-600 text-sm leading-relaxed">
             Self-exploration models achieve consistent wins over traditional supervised approaches.
