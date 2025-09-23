@@ -46,7 +46,7 @@ permalink: /
           <img src="/assets/corridor.png" alt="Corridor" class="w-full h-full object-cover">
         </div>
         <div class="flex-1">
-          <h3 class="font-semibold text-gray-900">Founding Engineer</h3>
+          <h3 class="font-semibold text-gray-900">Software Engineering Intern</h3>
           <p class="text-gray-600">Corridor</p>
         </div>
         <div class="text-gray-500 text-sm">
