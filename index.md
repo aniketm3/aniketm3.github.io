@@ -95,19 +95,6 @@ permalink: /
       
       <div class="flex items-center">
         <div class="w-12 h-12 rounded-lg overflow-hidden mr-4 bg-white border border-gray-200">
-          <img src="/assets/xfund.png" alt="Xfund" class="w-full h-full object-cover">
-        </div>
-        <div class="flex-1">
-          <h3 class="font-semibold text-gray-900">Venture Fellow</h3>
-          <p class="text-gray-600">Xfund</p>
-        </div>
-        <div class="text-gray-500 text-sm">
-          2022 - 2023
-        </div>
-      </div>
-      
-      <div class="flex items-center">
-        <div class="w-12 h-12 rounded-lg overflow-hidden mr-4 bg-white border border-gray-200">
           <img src="/assets/transcribeglass.png" alt="Transcribe Glass" class="w-full h-full object-cover">
         </div>
         <div class="flex-1">
